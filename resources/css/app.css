@@ -1,3 +1,36 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+@layer utilities {
+
+    .input{
+        @apply p-1 rounded-lg border border-gray-300
+    }
+
+    .left-navigation-opt{
+        @apply py-2 text-indigo-500 block py-3 px-2 font-medium  hover:bg-indigo-500 hover:rounded-lg px-5 hover:text-white
+    }
+
+    .content-nav-opt-blue-bg{
+        @apply p-3 hover:border-b-2 hover:border-white hover:bg-indigo-200 font-medium
+    }
+
+    .formation-option{
+        @apply border rounded-lg border-indigo-200 font-medium text-indigo-500 bg-white hover:bg-indigo-500 hover:text-white py-10 px-10
+    }
+
+    .form-field-container{
+        @apply py-2 grid grid-cols-1
+    }
+
+    .form-label{
+        @apply p-2 text-sm
+    }
+
+    .form-input{
+        @apply bg-gray-100 py-3 px-3 rounded-lg outline-none text-sm
+    }
+
+}
